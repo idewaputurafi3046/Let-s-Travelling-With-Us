@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.mb_20{margin-bottom: 20px;}
+.mb_30{margin-bottom: 30px;}
+
+
+
+body{
+    background-image: url(../beranda.png);
+    height: fit-content;
+    width: 1280;
+    background-repeat: no-repeat;
+}
+
+.navigasi-button {
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+    font-size: 20px;
+    float: right;
+    padding: 24px 0px;
+    color: black;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.header{
+    width: auto;
+    height: 67px;
+    background-color: white;
+    position: top;
+}
+
+.gambar{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 67px;
+}
+
+.kotak-putih{
+    display: flex;
+    background-color: white;
+    width: 660px;
+    height: 467px;
+    float: right;
+    margin-top: -467px;
+    margin-right: 65px;
+}
+
+.form-1{
+    display: block;
+    color: black;
+    float: right;
+    margin-top: -380px;
+    padding: 10px 0px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.form-input{
+    display: block;
+    float: right;
+    height: 30px;
+    width: 550px;
+    margin-top: 10px;
+    margin-right: 150px;
+    background-color: #FEECD5;
+}
+
+.form-input-1{
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: #FEECD5;
+    margin-right: 665px;
+}
+
+.logo-footer{
+    display: flex;
+    float: left;
+    margin-top: 133px;
+    margin-left: 67px;
+}
+.tulisan-footer3{
+    display: flex;
+    color: white;
+}
+
+.tulisan-footer4{
+    display: inline-block;
+    margin-top: 277px;
+    width: 400px;
+    height: 43px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin-left: -105px;
+}
+
+.footer{
+    margin-top: 100px;
+    width: auto;
+    position: bottom;
+    height: 300px;
+    background-color: #404040;
+}
+.tulisan-footer2{
+    display: inline-block;
+    margin-top: 221px;
+    margin-left: -61.77px;
+    color: white;
+    font-weight: bold;
+}
+
+.input-button{
+    display: inline-block;
+    color: white;
+    background-color: #FF994A;
+    width: 210px;
+    height: 44px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: -78px;
+    margin-right: 106px;
+    border: none;
+}
+
+.tulisan-footer1{
+    display: inline-block;
+    font-size: 43px;
+    font-weight: bold;
+    color: white;
+    margin-top: 133px;
+    margin-right: 80px;
+}
+.gambar-footer{
+    display: flex;
+    float: right;
+    margin-top: 221px;
+    margin-right: -243px;
+}
+
+.gambar-footer1{
+    margin-right: 50px;
+}
+
+.gambar-footer2{
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    height: 666px;
+}
+
+.registrasi_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul_reg{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.form_control {
+    border: 0;
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 90%;
+    font-size: 16px;
+}
+
+.button_daftar{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 55px;
+}
+
+.button1 {
+  background-color: rgb(252, 110, 22); 
+  color: white; 
+  width: 136px;
+}
+
+.jk{
+    border: 0;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 91%;
+}
+
+div.item{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+div.reg {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
