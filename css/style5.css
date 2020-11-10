@@ -9,9 +9,10 @@
 
 
 body{
-    background-image: url(../beranda.png);
+    background-image: url(../img/beranda.png);
+    background-size: cover;
     height: fit-content;
-    width: 1280;
+    width: auto;
     background-repeat: no-repeat;
 }
 
@@ -23,7 +24,7 @@ body{
     float: right;
     padding: 24px 0px;
     color: black;
-    margin-right: 100px;
+    margin-right: 60px;
     font-weight: bold;
 }
 
@@ -85,8 +86,8 @@ h5{
 .logo-footer{
     display: flex;
     float: left;
-    margin-top: 133px;
-    margin-left: 67px;
+    margin-top: 71px;
+    margin-left: 66px;
 }
 .tulisan-footer3{
     display: flex;
@@ -95,7 +96,7 @@ h5{
 
 .tulisan-footer4{
     display: inline-block;
-    margin-top: 277px;
+    margin-top: 221px;
     width: 400px;
     height: 43px;
     color: white;
@@ -109,11 +110,12 @@ h5{
     width: auto;
     position: bottom;
     height: 300px;
+    padding: 30px;
     background-color: #404040;
 }
 .tulisan-footer2{
     display: inline-block;
-    margin-top: 221px;
+    margin-top: 161px;
     margin-left: -61.77px;
     color: white;
     font-weight: bold;
@@ -136,28 +138,31 @@ h5{
     display: inline-block;
     font-size: 43px;
     font-weight: bold;
-    color: white;
-    margin-top: 133px;
-    margin-right: 80px;
+    color: black;
+    text-shadow: white 1px 0 8px;
+    margin-top: 75px;
+    margin-right: 85px;
 }
 .gambar-footer{
     display: flex;
     float: right;
-    margin-top: 221px;
+    margin-top: 161px;
     margin-right: -243px;
 }
 
 .gambar-footer1{
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .gambar-footer2{
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .container {
     display: flex;
     height: 666px;
+    margin: 0px;
+    width: 100%;
 }
 
 .registrasi_item{
@@ -165,43 +170,15 @@ h5{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .judul_reg{
     font-size: 40px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
-.form_control {
-    border: 0;
-    padding-left: 5px;
-    border-bottom: 2px solid rgb(252, 110, 22);
-    width: 90%;
-    font-size: 16px;
-}
-
-.button_daftar{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    float: right;
-    margin-right: 55px;
-}
-
-.button1 {
-  background-color: rgb(252, 110, 22); 
-  color: white; 
-  width: 136px;
-}
-
-.jk{
-    border: 0;
-    border-bottom: 2px solid rgb(252, 110, 22);
-    width: 91%;
-}
-
-div.item{
+.item{
     display: flex;
     width: 90%;
     align-items: center;
@@ -214,3 +191,64 @@ div.reg {
     padding: 0px;
     width: 50%;
 }
+
+.form_control {
+    border: 0;
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 90%;
+    font-size: 16px;
+}
+
+.button_daftar{
+    border-radius: 5px;
+    float: right;
+    margin-right: 55px;
+}
+
+.button1 {
+    background-color: rgb(252, 110, 22); 
+    color: white; 
+    width: 136px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(255, 0, 0); 
+    color: white; 
+    width: 136px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.jk{
+    border: 0;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 91%;
+}
+
+.help_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.judul{
+    font-size: 43px;
+    color: white;
+}
+
+.form_control_pencarian{
+    padding-left: 10px;
+    font-size: 20px;
+    width: 725px;
+    height: 50px;
+    margin-right: 20px;
+}
+
