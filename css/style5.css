@@ -3,6 +3,7 @@
     font-family: sans-serif;
 }
 
+.mb_10{margin-bottom: 10px;}
 .mb_20{margin-bottom: 20px;}
 .mb_30{margin-bottom: 30px;}
 
@@ -20,11 +21,11 @@ body{
     display: flex;
     text-decoration: none;
     font-style: none;
-    font-size: 20px;
+    font-size: 25px;
     float: right;
     padding: 24px 0px;
     color: black;
-    margin-right: 60px;
+    margin-right: 80px;
     font-weight: bold;
 }
 
@@ -32,7 +33,58 @@ body{
     width: auto;
     height: 67px;
     background-color: white;
-    position: top;
+}
+
+.input-login {
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    align-items: center;
+    height: 30px;
+    width: auto;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    padding: 100px 50px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+}
+
+.isi-2{
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -50px;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+.img{
+    background-image: url(../welcome.jpg);
+    background-position: right;
+    width: 700px;
+    height: fit-content;
+}
+
+
+
+.button{
+    height: 65px;
+    width: 187px;
+    font-size: 31px;
+    border: none;
+    background-color: #FF994A;
+    color: white;
+    margin-left: 200px;
+    border-radius: 10px;
 }
 
 .gambar{
@@ -158,6 +210,7 @@ h5{
     margin-right: 40px;
 }
 
+/* registrasi, help, info */
 .container {
     display: flex;
     height: 666px;
@@ -216,11 +269,12 @@ div.reg {
 }
 
 .button2 {
-    background-color: rgb(255, 0, 0); 
+    background-color: rgb(160, 2, 2); 
     color: white; 
     width: 136px;
     height: 50px;
     padding: 10px 20px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
 }
@@ -235,12 +289,25 @@ div.reg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 113px;
+    width: 100%;
+}
+
+.info_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 113px;
+    margin-left: 81px;
     width: 100%;
 }
 
 .judul{
     font-size: 43px;
+    color: white;
+}
+
+.isi_info{
+    font-size: 35px;
     color: white;
 }
 
