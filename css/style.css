@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../welcome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigasi-button {
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+    font-size: 31px;
+    float: right;
+    padding: 13px 0px;
+    color: black;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.header{
+    width: auto;
+    height: 67px;
+    background-color: white;
+}
+
+
+.input-login {
+    display: flex;
+    float: right;
+    margin-top: 600px;
+    margin-right: -100px;
+    height: 30px;
+    width: 50px;
+}
+
+.isi{
+    display: inline-block;
+    font-size: 50px;
+    padding: 100px 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.isi-2{
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -50px;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+.img{
+    background-image: url(../welcome.jpg);
+    background-position: right;
+    width: 700px;
+    height: fit-content;
+}
+
+.navigasi-button1{
+    display: flex;
+    float: right;
+    color: #FF994A;
+    text-decoration: none;
+    padding: 13px 0px;
+    margin-right: 100px;
+    font-size: 31px;
+    font-weight: bolder;
+}
+
+.button{
+    height: 65px;
+    width: 187px;
+    font-size: 31px;
+    border: none;
+    background-color: #FF994A;
+    color: white;
+    margin-left: 200px;
+}
