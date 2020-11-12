@@ -218,15 +218,18 @@ h5{
     width: 100%;
 }
 
-.registrasi_item{
+.container_item{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
 }
 
-.judul_reg{
+.judul_h2{
     font-size: 40px;
     margin-left: 30px;
 }
@@ -236,13 +239,6 @@ h5{
     width: 90%;
     align-items: center;
     justify-content: center;
-}
-
-div.reg {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    width: 50%;
 }
 
 .form_control {
