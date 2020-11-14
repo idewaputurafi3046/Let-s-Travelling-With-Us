@@ -11,9 +11,7 @@
 
 body{
     background-image: url(../img/beranda.png);
-    background-size: cover;
-    height: fit-content;
-    width: auto;
+    background-size: contain;  
     background-repeat: no-repeat;
 }
 
