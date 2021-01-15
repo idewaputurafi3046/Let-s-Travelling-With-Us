@@ -3,71 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>info-text</title>
-    <link rel="stylesheet" type="text/css" href="../css/style3.css">
+    <title>Help</title>
+    <link rel="stylesheet" type="text/css" href="../css/style5.css">
     <link rel="icon" href="../img/logo.png">
 </head>
 <body>
-    <nav>
-        <div class="navigasi">
-            <ul>
-                <li><a class="nav-1" href="beranda.html">Home</a></li>
-                <li><a  href="bookings.html">Bookings</a>  </li>
-                <li><a href="info.html">Info</a></li>
-                <li><a style="color: #FFB072;" href="help.html">Help</a></li>
-            </ul>
+    <div class="header">
+        <div class="navigasi-index1">
+            <a class="navigasi-button" style="color: #FFB072;" href="#">Help</a>
+            <a class="navigasi-button" href="info.html">Info</a>
+            <a class="navigasi-button" href="booking.html">Bookings</a>
+            <a class="navigasi-button" href="beranda.html">Home</a>  
         </div>
-    </nav>
-
-
-    <section id="help" class="container-help">
+    </div>
+    <section id="help" class="container">
         <div class="help_item">
             <div class="mb_30">
-                <h2 class="judul_mb30">Bagaimana kami dapat membantu anda?</h2>
+                <h2 class="judul">Bagaimana kami dapat membantu anda?</h2>
             </div>
-            <div class="help_pencarian">
-                 <input type="text" class="form_control_pencarian" name="pencarian">
-                 <button class="button2" type="button">Search</button>
+            <div class="mb_30">
+                <form method="POST" action="">
+                    <input type="text" class="form_control_pencarian" name="pencarian">
+                    <button class="button2" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </section>
     
-
-<footer>
     <div class="footer">
-        <div class="footer-logo">
-            <div class="logo">
-                <img class="logo-footer" src="../img/logo-foter.png">
-            </div>
-            <div class="tulisan">
-                <div class="fotter-text">
-                        <a class="tulisan-footer1">follow us</a>
-                </div>
-            </div>
+        <div class="logo">
+            <img class="logo-footer" src="../img/logo-foter.png">
         </div>
-
-        <div class="footer2">
-        <div class="font-footer">
-            <a class="tulisan-footer2">(0331)334-270</a>
+    
+        <div class="fotter-text">
+            <a class="tulisan-footer1" style="float: right;" >Follow us</a>
         </div>
-
-        <div class="logo-sosmed">
-            <a href=""><img class="gambar-footer" src="../img/youtube.png"></a>
-            <a href=""><img class="gambar-footer1" src="../img/fb-logo.png"></a>                    
-            <a href=""><img class="gambar-footer"  src="../img/ig.png"></a>
-        </div> 
-        
-        <div class="font-footer2">
-            <a class="tulisan-footer4">JL.KALIMANTAN NO.37,Krajan Timur,Sumbersari,
+        <div class="gambar-footer">
+            <a href=""><img class="gambar-footer2" src="../img/youtube.png"></a>
+            <a href=""><img class="gambar-footer1" src="../img/fb-logo.png"></a>
+            <a href=""><img  src="../img/ig.png"></a>
+        </div>
+    
+        <div class="fotter-text1">
+            <a class="tulisan-footer2" style="float: left;">(0331)334-270</a>
+            <a class="tulisan-footer4" style="float: left;">JL.KALIMANTAN NO.37,Krajan Timur,Sumbersari,
                 Kec.Sumbersari,Kabupaten Jember,Jawa Timur 68121
             </a>
         </div>
-       
-        
-        </div>
-        </div>
-           
-    </div>    
-</footer>
+    </div>
+
+   
 </body>
 </html>
