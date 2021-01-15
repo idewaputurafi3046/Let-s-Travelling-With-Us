@@ -1,0 +1,1 @@
+alert('cari wisata yang anda inginkan')
