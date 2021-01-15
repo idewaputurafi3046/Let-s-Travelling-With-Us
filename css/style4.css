@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.mb_10{margin-bottom: 10px;}
+.mb_20{margin-bottom: 20px;}
+.mb_30{margin-bottom: 30px;}
+
+
+
+body{
+    background-image: url(../img/beranda.png);
+    background-size: contain;  
+    background-repeat: no-repeat;
+}
+
+.navigasi-button {
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+    font-size: 20px;
+    float: right;
+    padding: 24px 0px;
+    color: black;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.header{
+    width: auto;
+    height: 67px;
+    background-color: white;
+}
+
+.input-login {
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    align-items: center;
+    height: 30px;
+    width: auto;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    padding: 100px 50px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+}
+
+.isi-2{
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    height: 100px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -50px;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+.img{
+    background-image: url(../welcome.jpg);
+    background-position: right;
+    width: 700px;
+    height: fit-content;
+}
+
+
+
+.button{
+    height: 65px;
+    width: 187px;
+    font-size: 31px;
+    border: none;
+    background-color: #FF994A;
+    color: white;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.gambar{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 67px;
+}
+
+.kotak-putih{
+    display: flex;
+    background-color: white;
+    width: 660px;
+    height: 467px;
+    float: right;
+    margin-top: -467px;
+    margin-right: 65px;
+}
+
+.form-1{
+    display: block;
+    color: black;
+    float: right;
+    margin-top: -380px;
+    padding: 10px 0px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.form-input{
+    display: block;
+    float: right;
+    height: 30px;
+    width: 550px;
+    margin-top: 10px;
+    margin-right: 150px;
+    background-color: #FEECD5;
+}
+
+.form-input-1{
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: #FEECD5;
+    margin-right: 665px;
+}
+
+.logo-footer{
+    display: flex;
+    float: left;
+    margin-top: 71px;
+    margin-left: 66px;
+}
+.tulisan-footer3{
+    display: flex;
+    color: white;
+}
+
+.tulisan-footer4{
+    display: inline-block;
+    margin-top: 221px;
+    width: 400px;
+    height: 43px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin-left: -105px;
+}
+
+.footer{
+    margin-top: -50px;
+    width: auto;
+    position: bottom;
+    height: 300px;
+    padding: 30px;
+    background-color: #404040;
+}
+.tulisan-footer2{
+    display: inline-block;
+    margin-top: 161px;
+    margin-left: -61.77px;
+    color: white;
+    font-weight: bold;
+}
+
+.input-button{
+    display: inline-block;
+    color: white;
+    background-color: #FF994A;
+    width: 210px;
+    height: 44px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: -78px;
+    margin-right: 106px;
+    border: none;
+}
+
+.tulisan-footer1{
+    display: inline-block;
+    font-size: 43px;
+    font-weight: bold;
+    color: black;
+    text-shadow: white 1px 0 8px;
+    margin-top: 75px;
+    margin-right: 85px;
+}
+.gambar-footer{
+    display: flex;
+    float: right;
+    margin-top: 161px;
+    margin-right: -243px;
+}
+
+.gambar-footer1{
+    margin-right: 40px;
+}
+
+.gambar-footer2{
+    margin-right: 40px;
+}
+
+/* registrasi, help, info */
+.container {
+    display: flex;
+    height: 666px;
+    margin: 0px;
+    width: 100%;
+}
+
+.container_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+
+.judul_h2{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.item{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_control {
+    border: 0;
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 90%;
+    font-size: 16px;
+}
+
+.button_daftar{
+    border-radius: 5px;
+    float: right;
+    margin-right: 55px;
+}
+
+.button1 {
+    background-color: rgb(252, 110, 22); 
+    color: white; 
+    width: 136px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(160, 2, 2); 
+    color: white; 
+    width: 136px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.jk{
+    border: 0;
+    border-bottom: 2px solid rgb(252, 110, 22);
+    width: 91%;
+}
+
+.help_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 113px;
+    width: 100%;
+}
+
+.info_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 113px;
+    margin-left: 81px;
+    width: 100%;
+}
+
+.judul{
+    font-size: 43px;
+    color: white;
+}
+
+.isi_info{
+    font-size: 35px;
+    color: white;
+}
+
+.form_control_pencarian{
+    padding-left: 10px;
+    font-size: 20px;
+    width: 725px;
+    height: 50px;
+    margin-right: 20px;
+}
+
