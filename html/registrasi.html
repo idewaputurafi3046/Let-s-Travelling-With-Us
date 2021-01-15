@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regitrasi</title>
+    <link rel="stylesheet" type="text/css" href="../css/style4.css">
+    <link rel="icon" href="../img/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body>
+    <section id="registrasi" class="container">
+        <div class="container_item">
+            <img src="../img/welcome.jpg" style="width: 100%; height: 100%;" alt="Gambar Background">
+        </div>
+        <div class="container_item">
+            <div class="item mb_30">
+                <h1 class="ml1 judul_h2">
+                    <span class="text-wrapper">
+                      <span class="line line1"></span>
+                      <span class="letters">Registrasi</span>
+                      <span class="line line2"></span>
+                    </span>
+                  </h1>
+            </div>
+            <div class="item" style="margin-left: 40px; ">
+                <form method="POST" action="beranda.html">
+                    <input type="email" class="form_control mb_20" name="email" placeholder="Email" required>
+                    <input type="password" class="form_control mb_20" name="password" placeholder="Password" required>
+                    <input type="password" class="form_control mb_20" name="repeat_password" placeholder="Repeat Password" required>
+                    <input type="text" class="form_control mb_20" name="Nama" placeholder="Nama" required>
+                    <select class="mb_20 jk" name="jenis_kelamin" required>
+                        <option selected disabled>Jenis Kelamin</option>
+                        <option value="laki-laki">Laki-Laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+                    <input type="text" class="form_control mb_20" name="no_telp" placeholder="Nomor Telepon" required>
+                    <input type="date" class="form_control mb_20" name="tgl_lahir" placeholder="Tanggal Lahir" required>
+                    <input type="text" class="form_control mb_20" name="no_identitas" placeholder="Nomor Identitas" required>
+
+                    <button class="button_daftar button1" onclick="window.location.href='beranda.html'" type="submit">Daftar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<script src="../js/js.js"></script>
+</body>
+</html>
